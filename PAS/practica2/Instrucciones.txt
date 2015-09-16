@@ -1,0 +1,9 @@
+Alumno: Rubén Medina Zamorano
+Instrucciones
+=============
+Ejer1. Ejecutar con <script><fichero "peliculas.txt">
+Ejer2. Ejecutar con <script><fichero "peliculas.txt">
+Ejer3. Ejecutar el script sin argumentos
+Ejer4. Ejecutar el script <script><fichero "IPs.txt"><segundos de espera paquetes>
+Ejer5. Ejecutar el script sin argumentos
+Ejer6. Ejecutar con <script><shell por defecto de los usuarios, por ejemplo "/bin/bash"> 

@@ -1,0 +1,21 @@
+Alumno: Rubén Medina Zamorano
+INSTRUCCIONES
+============================
+*Compilar todos los ejercicios con el make
+
+Ejercicio1: 
+	Usar comando u para id de usuario, n para nombre usuario e y s para el idioma al mostrar la informacion y g para que muestre info del grupo.
+	Si no se introducen opciones se coge el usuario logeado con su idioma por defecto.
+
+Ejercicio2:
+	Usar comando e y s para el idioma, g para especificar el grupo y -h muestra la ayuda.
+	Si no se introducen opciones se escoge el grupo del usuario y con su idioma por defecto
+
+
+Ejercicio3:
+	¡Leer el archivo ejercicio3.txt!
+	Ejecutar el programa varias veces para ir comprobando la salida y despues descomentar el sleep del padre y volver a compilar/ejecutar para observar lo que sucede en funcion del ejercicio3.txt y las distintas salidas.
+
+Ejercicio4:
+	Ejecutar en primer lugar el servidor para crear las colas y despues el cliente para enviar mensajes, las opciones de ejecucion en servidor son -h/--help para la ayuda, -r/--regex para insertar un patron y -e/--ere si es un expresion extendida del patron.
+	Para cerrar el programa se escribira exit en el cliente, o se podra cerrar con ctrl+C en cualquiera de los dos para capturar las señales (tambien se podra utilizar desde otro terminal < kill -s SIGTERM/SIGINT/SIGHUP pid > ).

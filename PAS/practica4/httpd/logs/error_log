@@ -1,0 +1,359 @@
+[Tue Apr 28 10:16:34.155607 2015] [mpm_event:notice] [pid 2770:tid 3075057408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue Apr 28 10:16:34.155814 2015] [core:notice] [pid 2770:tid 3075057408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue Apr 28 10:17:43.034995 2015] [mpm_event:notice] [pid 2770:tid 3075057408] AH00491: caught SIGTERM, shutting down
+[Tue Apr 28 10:18:29.385319 2015] [mpm_event:notice] [pid 2912:tid 3075196672] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue Apr 28 10:18:29.385516 2015] [core:notice] [pid 2912:tid 3075196672] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue Apr 28 10:23:06.461784 2015] [mpm_event:notice] [pid 2912:tid 3075196672] AH00491: caught SIGTERM, shutting down
+[Sun May 03 18:00:17.813721 2015] [mpm_event:notice] [pid 2919:tid 3074623232] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:00:17.840168 2015] [core:notice] [pid 2919:tid 3074623232] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:00:32.809490 2015] [mpm_event:notice] [pid 2919:tid 3074623232] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 18:00:32.817160 2015] [mpm_event:notice] [pid 2919:tid 3074623232] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:00:32.817894 2015] [core:notice] [pid 2919:tid 3074623232] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:06:52.981494 2015] [mpm_event:notice] [pid 2919:tid 3074623232] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 18:06:52.993026 2015] [mpm_event:notice] [pid 2919:tid 3074623232] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:06:52.993163 2015] [core:notice] [pid 2919:tid 3074623232] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:08:34.478054 2015] [mpm_event:notice] [pid 2919:tid 3074623232] AH00491: caught SIGTERM, shutting down
+[Sun May 03 18:08:37.633164 2015] [mpm_event:notice] [pid 3316:tid 3075065600] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:08:37.633306 2015] [core:notice] [pid 3316:tid 3075065600] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:08:52.551136 2015] [mpm_event:notice] [pid 3316:tid 3075065600] AH00491: caught SIGTERM, shutting down
+[Sun May 03 18:10:06.059763 2015] [mpm_event:notice] [pid 3443:tid 3074471680] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:10:06.060038 2015] [core:notice] [pid 3443:tid 3074471680] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:10:15.012188 2015] [mpm_event:notice] [pid 3443:tid 3074471680] AH00491: caught SIGTERM, shutting down
+[Sun May 03 18:10:23.011672 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:10:23.012102 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:20:00.950957 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 18:20:00.955485 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:20:00.955525 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:42:20.234930 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 18:42:20.240029 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:42:20.240088 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 18:56:17.060363 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 18:56:17.069189 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 18:56:17.076867 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:00:33.205506 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:00:33.213315 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:00:33.213377 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:00:51.769018 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:00:51.775754 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:00:51.777825 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:01:06.882531 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:01:06.893919 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:01:06.893953 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:01:23.871657 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:01:23.878001 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:01:23.878063 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:02:00.524984 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:02:00.530162 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:02:00.530223 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:02:05.332798 2015] [autoindex:error] [pid 4897:tid 3063937856] [client 127.0.0.1:35971] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun May 03 19:02:25.847183 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:02:25.864783 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:02:25.865554 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:03:47.925782 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:03:47.935702 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:03:47.935758 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:03:50.996533 2015] [autoindex:error] [pid 5077:tid 3063937856] [client 127.0.0.1:35973] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun May 03 19:04:00.754494 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:04:00.769119 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:04:00.769183 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:04:04.109759 2015] [autoindex:error] [pid 5163:tid 2996796224] [client 127.0.0.1:35974] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun May 03 19:04:05.457251 2015] [autoindex:error] [pid 5163:tid 2988403520] [client 127.0.0.1:35974] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun May 03 19:04:06.498760 2015] [autoindex:error] [pid 5163:tid 2980010816] [client 127.0.0.1:35974] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun May 03 19:04:07.968742 2015] [autoindex:error] [pid 5163:tid 2971618112] [client 127.0.0.1:35974] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun May 03 19:05:37.253074 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:05:37.258748 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:05:37.258803 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:06:18.649550 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:06:18.654047 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:06:18.654104 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:06:32.744452 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:06:32.749225 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:06:32.749284 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:06:53.956390 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:06:54.004572 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:06:54.004661 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:11:02.946800 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:11:02.953751 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:11:02.953801 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:12:14.306116 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:12:14.315845 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:12:14.315888 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:12:33.210720 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:12:33.216331 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:12:33.216369 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:12:55.230238 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:12:55.238559 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:12:55.238651 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:46:55.181507 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:46:55.199920 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:46:55.200004 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:47:57.648882 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:47:57.653755 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:47:57.658974 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:48:41.158966 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:48:41.170722 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:48:41.170803 2015] [core:notice] [pid 3538:tid 3074615040] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:48:49.190039 2015] [mpm_event:notice] [pid 3538:tid 3074615040] AH00491: caught SIGTERM, shutting down
+[Sun May 03 19:48:56.287790 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:48:56.288128 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:49:28.784836 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:49:28.791665 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:49:28.791789 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:49:52.494395 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:49:52.500403 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:49:52.500450 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:50:01.200723 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:50:01.206990 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:50:01.207053 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 19:56:07.751142 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 19:56:07.756067 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 19:56:07.756229 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:06:05.930668 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 20:06:05.935335 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:06:05.935393 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:06:51.865419 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 20:06:51.870605 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:06:51.870770 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:07:05.978865 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 20:07:05.984768 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:07:05.984860 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:07:55.467161 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 20:07:55.476316 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:07:55.476361 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:08:38.248883 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00494: SIGHUP received.  Attempting to restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun May 03 20:08:38.253678 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:08:38.253747 2015] [core:notice] [pid 6454:tid 3074545408] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:09:38.480503 2015] [mpm_event:notice] [pid 6454:tid 3074545408] AH00491: caught SIGTERM, shutting down
+[Sun May 03 20:10:36.457719 2015] [mpm_event:notice] [pid 7534:tid 3074504448] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:10:36.458781 2015] [core:notice] [pid 7534:tid 3074504448] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:10:44.947712 2015] [mpm_event:notice] [pid 7534:tid 3074504448] AH00491: caught SIGTERM, shutting down
+[Sun May 03 20:15:10.328477 2015] [mpm_event:notice] [pid 7975:tid 3075356416] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:15:10.329164 2015] [core:notice] [pid 7975:tid 3075356416] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:15:34.358565 2015] [mpm_event:notice] [pid 7975:tid 3075356416] AH00494: SIGHUP received.  Attempting to restart
+[Sun May 03 20:15:34.364629 2015] [mpm_event:notice] [pid 7975:tid 3075356416] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:15:34.364685 2015] [core:notice] [pid 7975:tid 3075356416] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:16:02.412493 2015] [mpm_event:notice] [pid 7975:tid 3075356416] AH00494: SIGHUP received.  Attempting to restart
+[Sun May 03 20:16:02.416747 2015] [mpm_event:notice] [pid 7975:tid 3075356416] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sun May 03 20:16:02.416799 2015] [core:notice] [pid 7975:tid 3075356416] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sun May 03 20:31:41.396404 2015] [mpm_event:notice] [pid 7975:tid 3075356416] AH00491: caught SIGTERM, shutting down
+[Tue May 05 09:04:45.143510 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:04:45.167082 2015] [core:notice] [pid 2671:tid 3075249920] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:04:57.747425 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:04:57.751609 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:04:57.751655 2015] [core:notice] [pid 2671:tid 3075249920] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:06:22.739323 2015] [core:error] [pid 2764:tid 3055545152] [client 127.0.0.1:44579] AH00135: Invalid method in request HOLA
+[Tue May 05 09:36:06.917624 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:36:06.924801 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:36:06.924843 2015] [core:notice] [pid 2671:tid 3075249920] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:36:23.895692 2015] [autoindex:error] [pid 3275:tid 3055545152] [client 127.0.0.1:44654] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:36:39.515339 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:36:39.519751 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:36:39.519776 2015] [core:notice] [pid 2671:tid 3075249920] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:36:42.192693 2015] [autoindex:error] [pid 3373:tid 3063937856] [client 127.0.0.1:44655] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:36:43.581328 2015] [autoindex:error] [pid 3373:tid 3055545152] [client 127.0.0.1:44655] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:37:04.143264 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:37:04.147457 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:37:04.147483 2015] [core:notice] [pid 2671:tid 3075249920] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:37:06.750256 2015] [autoindex:error] [pid 3466:tid 3055545152] [client 127.0.0.1:44656] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:37:21.399556 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:37:21.403100 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:37:21.403135 2015] [core:notice] [pid 2671:tid 3075249920] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:37:24.968932 2015] [autoindex:error] [pid 3552:tid 3038759744] [client 127.0.0.1:44657] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:38:00.691864 2015] [mpm_event:notice] [pid 2671:tid 3075249920] AH00491: caught SIGTERM, shutting down
+[Tue May 05 09:38:17.037225 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:38:17.037385 2015] [core:notice] [pid 3646:tid 3075438336] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:38:19.596040 2015] [autoindex:error] [pid 3647:tid 3063937856] [client 127.0.0.1:44678] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:39:50.807594 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:39:50.812168 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:39:50.812195 2015] [core:notice] [pid 3646:tid 3075438336] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:39:55.180842 2015] [autoindex:error] [pid 3754:tid 3063937856] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:39:56.791794 2015] [autoindex:error] [pid 3754:tid 3047152448] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:39:57.564748 2015] [autoindex:error] [pid 3754:tid 3038759744] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:39:58.358999 2015] [autoindex:error] [pid 3754:tid 3030367040] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:39:59.179807 2015] [autoindex:error] [pid 3754:tid 3021974336] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:00.197618 2015] [autoindex:error] [pid 3754:tid 3013581632] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:00.884741 2015] [autoindex:error] [pid 3754:tid 3005188928] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:02.831005 2015] [autoindex:error] [pid 3754:tid 2996796224] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:06.649163 2015] [autoindex:error] [pid 3754:tid 2988403520] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:07.918734 2015] [autoindex:error] [pid 3754:tid 2980010816] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:08.086977 2015] [autoindex:error] [pid 3754:tid 2971618112] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:08.208450 2015] [autoindex:error] [pid 3754:tid 2963225408] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:09.531544 2015] [autoindex:error] [pid 3754:tid 2954832704] [client 127.0.0.1:44679] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:53.594404 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:40:53.597976 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:40:53.598011 2015] [core:notice] [pid 3646:tid 3075438336] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:40:56.527110 2015] [autoindex:error] [pid 3946:tid 3063937856] [client 127.0.0.1:44680] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:40:57.786536 2015] [autoindex:error] [pid 3946:tid 3055545152] [client 127.0.0.1:44680] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:41:10.874783 2015] [autoindex:error] [pid 3946:tid 3038759744] [client 127.0.0.1:44682] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:41:35.018564 2015] [autoindex:error] [pid 3945:tid 3055545152] [client 127.0.0.1:44683] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:41:36.966761 2015] [autoindex:error] [pid 3945:tid 3047152448] [client 127.0.0.1:44683] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:41:37.133999 2015] [autoindex:error] [pid 3945:tid 3021974336] [client 127.0.0.1:44683] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:41:37.286827 2015] [autoindex:error] [pid 3945:tid 3038759744] [client 127.0.0.1:44683] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:41:38.817267 2015] [autoindex:error] [pid 3945:tid 3030367040] [client 127.0.0.1:44683] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:43:07.708582 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:43:07.712735 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:43:07.712783 2015] [core:notice] [pid 3646:tid 3075438336] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:43:34.738806 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:43:34.742511 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:43:34.742569 2015] [core:notice] [pid 3646:tid 3075438336] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:43:54.717270 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:43:54.720794 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:43:54.720841 2015] [core:notice] [pid 3646:tid 3075438336] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:46:27.831953 2015] [mpm_event:notice] [pid 3646:tid 3075438336] AH00494: SIGHUP received.  Attempting to restart
+(98)Address already in use: AH00072: make_sock: could not bind to address 127.0.0.1:8080
+[Tue May 05 09:46:27.834362 2015] [mpm_event:alert] [pid 3646:tid 3075438336] no listening sockets available, shutting down
+[Tue May 05 09:46:27.834374 2015] [:emerg] [pid 3646:tid 3075438336] AH00019: Unable to open logs, exiting
+[Tue May 05 09:47:22.930329 2015] [core:warn] [pid 4515:tid 3074467584] AH00098: pid file /home/ruben/httpd/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 05 09:47:22.931621 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:47:22.931702 2015] [core:notice] [pid 4515:tid 3074467584] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:47:28.119081 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:47:28.122988 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:47:28.123052 2015] [core:notice] [pid 4515:tid 3074467584] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:48:18.112361 2015] [autoindex:error] [pid 4606:tid 3046103872] [client 127.0.0.1:44725] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:50:13.909667 2015] [autoindex:error] [pid 4606:tid 3037711168] [client 127.0.0.1:44729] AH01276: Cannot serve directory /home/ruben/html-docs/prueba/: No matching DirectoryIndex (index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 05 09:50:34.348591 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:50:34.352530 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:50:34.352581 2015] [core:notice] [pid 4515:tid 3074467584] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 09:54:41.558691 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 09:54:41.563283 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 09:54:41.563338 2015] [core:notice] [pid 4515:tid 3074467584] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 10:06:45.268906 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 10:06:45.273487 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 10:06:45.273550 2015] [core:notice] [pid 4515:tid 3074467584] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Tue May 05 10:07:01.025052 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00494: SIGHUP received.  Attempting to restart
+[Tue May 05 10:07:01.031883 2015] [mpm_event:notice] [pid 4515:tid 3074467584] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Tue May 05 10:07:01.031996 2015] [core:notice] [pid 4515:tid 3074467584] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:07:22.131961 2015] [core:warn] [pid 2780:tid 3074606848] AH00098: pid file /home/ruben/httpd/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 06 18:07:22.165538 2015] [mpm_event:notice] [pid 2780:tid 3074606848] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:07:22.165767 2015] [core:notice] [pid 2780:tid 3074606848] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:13:36.112653 2015] [mpm_event:notice] [pid 2780:tid 3074606848] AH00491: caught SIGTERM, shutting down
+[Wed May 06 18:13:49.032287 2015] [mpm_event:notice] [pid 2903:tid 3074717440] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:13:49.032658 2015] [core:notice] [pid 2903:tid 3074717440] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:13:53.696584 2015] [mpm_event:notice] [pid 2903:tid 3074717440] AH00491: caught SIGTERM, shutting down
+[Wed May 06 18:14:47.475735 2015] [mpm_event:notice] [pid 3004:tid 3075024640] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:14:47.475998 2015] [core:notice] [pid 3004:tid 3075024640] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:14:57.086788 2015] [mpm_event:notice] [pid 3004:tid 3075024640] AH00491: caught SIGTERM, shutting down
+[Wed May 06 18:15:03.041817 2015] [mpm_event:notice] [pid 3096:tid 3074774784] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:15:03.042089 2015] [core:notice] [pid 3096:tid 3074774784] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:15:22.904882 2015] [mpm_event:notice] [pid 3096:tid 3074774784] AH00491: caught SIGTERM, shutting down
+[Wed May 06 18:16:02.354253 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:16:02.355716 2015] [core:notice] [pid 3205:tid 3074619136] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:24:31.014855 2015] [core:error] [pid 3209:tid 3062889280] [client 127.0.0.1:46780] AH00135: Invalid method in request HOLA
+[Wed May 06 18:32:09.673969 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:32:09.678578 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:32:09.678652 2015] [core:notice] [pid 3205:tid 3074619136] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:34:45.897418 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:34:45.908291 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:34:45.908361 2015] [core:notice] [pid 3205:tid 3074619136] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:40:17.293870 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:40:17.298005 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:40:17.298077 2015] [core:notice] [pid 3205:tid 3074619136] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:42:15.857742 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:42:15.862153 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:42:15.862217 2015] [core:notice] [pid 3205:tid 3074619136] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:42:27.100578 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:42:27.107482 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:42:27.107602 2015] [core:notice] [pid 3205:tid 3074619136] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:42:31.876481 2015] [mpm_event:notice] [pid 3205:tid 3074619136] AH00491: caught SIGTERM, shutting down
+[Wed May 06 18:42:38.005917 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:42:38.006139 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:42:56.140323 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:42:56.146661 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:42:56.146723 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:43:14.655492 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:43:14.660181 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:43:14.660245 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:44:37.067060 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:44:37.072076 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:44:37.072144 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:45:51.738112 2015] [core:error] [pid 4577:tid 3063937856] [client 127.0.0.1:46929] AH00135: Invalid method in request HOLA
+[Wed May 06 18:45:55.429413 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 18:45:55.437088 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 18:45:55.437356 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 18:45:58.428160 2015] [core:error] [pid 4694:tid 3063937856] [client 127.0.0.1:46930] AH00135: Invalid method in request HOLa
+[Wed May 06 19:08:25.833469 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 19:08:25.839064 2015] [alias:warn] [pid 4279:tid 3074881280] AH00671: The ScriptAlias directive in /home/ruben/httpd/conf/httpd.conf at line 389 will probably never match because it overlaps an earlier ScriptAlias.
+[Wed May 06 19:08:25.843068 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 19:08:25.843125 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 19:08:36.154942 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 19:08:36.158407 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 19:08:36.158462 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 19:17:41.362114 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 19:17:41.400302 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 19:17:41.400548 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 19:18:19.096721 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 19:18:19.101151 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 19:18:19.101284 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 19:26:07.180719 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 19:26:07.186120 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 19:26:07.186181 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 19:29:58.507008 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 19:29:58.519748 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 19:29:58.522472 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 19:31:50.156467 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 06 19:31:50.160786 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Wed May 06 19:31:50.160848 2015] [core:notice] [pid 4279:tid 3074881280] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Wed May 06 19:39:09.137561 2015] [mpm_event:notice] [pid 4279:tid 3074881280] AH00491: caught SIGTERM, shutting down
+[Sat May 09 13:44:37.682110 2015] [mpm_event:notice] [pid 2925:tid 3074819840] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 13:44:37.682382 2015] [core:notice] [pid 2925:tid 3074819840] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 13:59:25.010704 2015] [mpm_event:notice] [pid 2925:tid 3074819840] AH00494: SIGHUP received.  Attempting to restart
+[Sat May 09 13:59:25.031200 2015] [mpm_event:notice] [pid 2925:tid 3074819840] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 13:59:25.036926 2015] [core:notice] [pid 2925:tid 3074819840] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:00:22.048454 2015] [mpm_event:notice] [pid 2925:tid 3074819840] AH00491: caught SIGTERM, shutting down
+[Sat May 09 14:00:24.306915 2015] [mpm_event:notice] [pid 3311:tid 3074770688] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:00:24.307108 2015] [core:notice] [pid 3311:tid 3074770688] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:00:27.223817 2015] [mpm_event:notice] [pid 3311:tid 3074770688] AH00494: SIGHUP received.  Attempting to restart
+[Sat May 09 14:00:27.228556 2015] [mpm_event:notice] [pid 3311:tid 3074770688] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:00:27.228641 2015] [core:notice] [pid 3311:tid 3074770688] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:11:48.837982 2015] [mpm_event:notice] [pid 3311:tid 3074770688] AH00491: caught SIGTERM, shutting down
+[Sat May 09 14:12:16.538205 2015] [mpm_event:notice] [pid 3810:tid 3074963200] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:12:16.538476 2015] [core:notice] [pid 3810:tid 3074963200] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:13:00.702914 2015] [mpm_event:notice] [pid 3810:tid 3074963200] AH00491: caught SIGTERM, shutting down
+[Sat May 09 14:20:14.536469 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:20:14.560875 2015] [core:notice] [pid 2470:tid 3074594560] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:42:36.513667 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00494: SIGHUP received.  Attempting to restart
+[Sat May 09 14:42:36.522719 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:42:36.523024 2015] [core:notice] [pid 2470:tid 3074594560] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:43:08.942376 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00494: SIGHUP received.  Attempting to restart
+[Sat May 09 14:43:08.974118 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:43:08.974183 2015] [core:notice] [pid 2470:tid 3074594560] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:46:07.984333 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00494: SIGHUP received.  Attempting to restart
+[Sat May 09 14:46:07.988135 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:46:07.988176 2015] [core:notice] [pid 2470:tid 3074594560] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 14:48:52.925449 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00494: SIGHUP received.  Attempting to restart
+[Sat May 09 14:48:52.933004 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00489: Apache/2.4.12 (Unix) configured -- resuming normal operations
+[Sat May 09 14:48:52.933057 2015] [core:notice] [pid 2470:tid 3074594560] AH00094: Command line: '/home/ruben/httpd/bin/httpd'
+[Sat May 09 15:06:48.464450 2015] [mpm_event:notice] [pid 2470:tid 3074594560] AH00491: caught SIGTERM, shutting down

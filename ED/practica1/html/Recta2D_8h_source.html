@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Practica 1 ED: Fichero Fuente Recta2D.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Practica 1 ED
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Programa que calcula el error producido por la aproximacion geometrica de una serie de puntos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Recta2D.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Recta2D_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef RECTA2D_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define RECTA2D_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Punto2D_8h.html">Punto2D.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classRecta2D.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="classRecta2D.html">Recta2D</a>{</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        T a_, b_, c_;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classRecta2D.html#a8a7ea88913f64498222bff4099efcedb">   35</a></span>&#160;        <a class="code" href="classRecta2D.html#a8a7ea88913f64498222bff4099efcedb">Recta2D</a>(T <span class="keyword">const</span>&amp; a, T <span class="keyword">const</span>&amp; b, T <span class="keyword">const</span>&amp; c){</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            a_=a;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            b_=b;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            c_=c;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classRecta2D.html#a2da59810d1c3681fb700e3b07a09d863">   49</a></span>&#160;        <a class="code" href="classRecta2D.html#a2da59810d1c3681fb700e3b07a09d863">Recta2D</a>( <a class="code" href="classPunto2D.html">Punto2D&lt;T&gt;</a> &amp;  p1,  <a class="code" href="classPunto2D.html">Punto2D&lt;T&gt;</a> &amp;  p2){</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            assert( !p1.<a class="code" href="classPunto2D.html#a9fefbfef72bd84dc7dbec27c4fe654eb">sonIguales</a>(p2) );</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            a_ = p2.<a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>() - p1.<a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>();<span class="comment">//y2 - y1</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            b_ = p1.<a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>() - p2.<a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>();<span class="comment">//x1 - x2</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            c_ = p1.<a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>() * ( p2.<a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>()-p1.<a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>() ) - p1.<a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>() * ( p2.<a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>() - p1.<a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>() );<span class="comment">//y1*(x2-x1) - x1*(y2-y1)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classRecta2D.html#a870d3061185946224302d5cec0a032e4">   63</a></span>&#160;        <span class="keyword">inline</span> T <a class="code" href="classRecta2D.html#a870d3061185946224302d5cec0a032e4">getA</a>()<span class="keyword">const</span>{ <span class="keywordflow">return</span>(a_); };</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classRecta2D.html#ac22fd4f6e92b80d1009ca13e2aeed352">   70</a></span>&#160;        <span class="keyword">inline</span> T <a class="code" href="classRecta2D.html#ac22fd4f6e92b80d1009ca13e2aeed352">getB</a>()<span class="keyword">const</span>{ <span class="keywordflow">return</span>(b_); };</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classRecta2D.html#a889a7b16fdd0317a45add97e904a9f97">   77</a></span>&#160;        <span class="keyword">inline</span> T <a class="code" href="classRecta2D.html#a889a7b16fdd0317a45add97e904a9f97">getC</a>()<span class="keyword">const</span>{ <span class="keywordflow">return</span>(c_); };</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classRecta2D.html#ab5137de871cbcc47877c5beee508d666">   84</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classRecta2D.html#ab5137de871cbcc47877c5beee508d666">setA</a>( T <span class="keyword">const</span>&amp; valor){ a_ = valor; };</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classRecta2D.html#a888bae435b4933ae3f0db1b33f70e53c">   91</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classRecta2D.html#a888bae435b4933ae3f0db1b33f70e53c">setB</a>( T <span class="keyword">const</span>&amp; valor){ b_ = valor; };</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classRecta2D.html#a7dc9ae27b26c42d86b44143f4f657722">   98</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classRecta2D.html#a7dc9ae27b26c42d86b44143f4f657722">setC</a>( T <span class="keyword">const</span>&amp; valor){ c_ = valor; };</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;};</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classPunto2D_html_a9fefbfef72bd84dc7dbec27c4fe654eb"><div class="ttname"><a href="classPunto2D.html#a9fefbfef72bd84dc7dbec27c4fe654eb">Punto2D::sonIguales</a></div><div class="ttdeci">bool sonIguales(Punto2D p)</div><div class="ttdoc">Compara dos puntos para ver si son iguales. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:61</div></div>
+<div class="ttc" id="classRecta2D_html_ac22fd4f6e92b80d1009ca13e2aeed352"><div class="ttname"><a href="classRecta2D.html#ac22fd4f6e92b80d1009ca13e2aeed352">Recta2D::getB</a></div><div class="ttdeci">T getB() const </div><div class="ttdoc">Observador inline de b. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:70</div></div>
+<div class="ttc" id="classPunto2D_html"><div class="ttname"><a href="classPunto2D.html">Punto2D</a></div><div class="ttdoc">Clase que representa los puntos en dos dimensiones x/y. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:22</div></div>
+<div class="ttc" id="classRecta2D_html_ab5137de871cbcc47877c5beee508d666"><div class="ttname"><a href="classRecta2D.html#ab5137de871cbcc47877c5beee508d666">Recta2D::setA</a></div><div class="ttdeci">void setA(T const &amp;valor)</div><div class="ttdoc">Modificador inline de a. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:84</div></div>
+<div class="ttc" id="classRecta2D_html_a888bae435b4933ae3f0db1b33f70e53c"><div class="ttname"><a href="classRecta2D.html#a888bae435b4933ae3f0db1b33f70e53c">Recta2D::setB</a></div><div class="ttdeci">void setB(T const &amp;valor)</div><div class="ttdoc">Modificador inline de b. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:91</div></div>
+<div class="ttc" id="classRecta2D_html_a8a7ea88913f64498222bff4099efcedb"><div class="ttname"><a href="classRecta2D.html#a8a7ea88913f64498222bff4099efcedb">Recta2D::Recta2D</a></div><div class="ttdeci">Recta2D(T const &amp;a, T const &amp;b, T const &amp;c)</div><div class="ttdoc">Constructor inline de la clase. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:35</div></div>
+<div class="ttc" id="classRecta2D_html"><div class="ttname"><a href="classRecta2D.html">Recta2D</a></div><div class="ttdoc">Clase que representa una recta en dos dimensiones ax+by+c=0. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:22</div></div>
+<div class="ttc" id="classRecta2D_html_a889a7b16fdd0317a45add97e904a9f97"><div class="ttname"><a href="classRecta2D.html#a889a7b16fdd0317a45add97e904a9f97">Recta2D::getC</a></div><div class="ttdeci">T getC() const </div><div class="ttdoc">Observador inline de c. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:77</div></div>
+<div class="ttc" id="Punto2D_8h_html"><div class="ttname"><a href="Punto2D_8h.html">Punto2D.h</a></div><div class="ttdoc">Fichero de la clase Punto2D con sus respectivas funciones : observadores, modificadores y metodos...</div></div>
+<div class="ttc" id="classPunto2D_html_a7a262713e0e51178deddbe9e72cbda7c"><div class="ttname"><a href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">Punto2D::y</a></div><div class="ttdeci">T y() const </div><div class="ttdoc">Observador inline del campo y. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:51</div></div>
+<div class="ttc" id="classRecta2D_html_a7dc9ae27b26c42d86b44143f4f657722"><div class="ttname"><a href="classRecta2D.html#a7dc9ae27b26c42d86b44143f4f657722">Recta2D::setC</a></div><div class="ttdeci">void setC(T const &amp;valor)</div><div class="ttdoc">Modificador inline de c. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:98</div></div>
+<div class="ttc" id="classRecta2D_html_a2da59810d1c3681fb700e3b07a09d863"><div class="ttname"><a href="classRecta2D.html#a2da59810d1c3681fb700e3b07a09d863">Recta2D::Recta2D</a></div><div class="ttdeci">Recta2D(Punto2D&lt; T &gt; &amp;p1, Punto2D&lt; T &gt; &amp;p2)</div><div class="ttdoc">Constructor inline de la clase a partir de dos puntos. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:49</div></div>
+<div class="ttc" id="classPunto2D_html_a3ce9cc1175efc286c0faa31df5778276"><div class="ttname"><a href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">Punto2D::x</a></div><div class="ttdeci">T x() const </div><div class="ttdoc">Observador inline del campo x. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:45</div></div>
+<div class="ttc" id="classRecta2D_html_a870d3061185946224302d5cec0a032e4"><div class="ttname"><a href="classRecta2D.html#a870d3061185946224302d5cec0a032e4">Recta2D::getA</a></div><div class="ttdeci">T getA() const </div><div class="ttdoc">Observador inline de a. </div><div class="ttdef"><b>Definition:</b> Recta2D.h:63</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Sábado, 28 de Febrero de 2015 14:15:43 para Practica 1 ED por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

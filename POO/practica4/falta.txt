@@ -1,0 +1,7 @@
+x 1. guardas de inclusion
+2. añadir comentarios
+x 3. revisar funciones inline
+x 4. revisar const & para parametros que no se modificaran
+5. crear espacio de nombres con las clases
+6. añadir getEstadoRuleta
+7. completar programa principal con un menu bonico

@@ -1,0 +1,2 @@
+[Sat May 09 14:42:48.796616 2015] [access_compat:error] [pid 2964:tid 3062889280] [client 127.0.0.1:36454] AH01797: client denied by server configuration: /home/ruben/html-docs/prueba/
+[Sat May 09 14:46:52.593340 2015] [access_compat:error] [pid 3183:tid 2903427904] [client 127.0.0.1:36457] AH01797: client denied by server configuration: /home/ruben/html-docs/prueba/

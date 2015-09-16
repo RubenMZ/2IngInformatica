@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>PracticadeGrafos: Fichero Fuente graph_matrix.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">PracticadeGrafos
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">graph_matrix.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="graph__matrix_8hpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef __GRAPH_MATRIX_HPP__</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __GRAPH_MATRIX_HPP__</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include  &quot;<a class="code" href="edge_8hpp.html">edge.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include  &quot;<a class="code" href="vertex_8hpp.html">vertex.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span>edi </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html">   27</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classedi_1_1GraphMatrix.html">GraphMatrix</a></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;              </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="comment">//Capacity of graph (maximum value of _numVertexes. _capacity &gt;= _numVertexes)</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#ae09db9b53525a4c0e1f6435afd3770cb">   32</a></span>&#160;            <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classedi_1_1GraphMatrix.html#ae09db9b53525a4c0e1f6435afd3770cb">_numVertexes</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#a59eaad38062989765e0c6cf46fe5276c">   33</a></span>&#160;            <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classedi_1_1GraphMatrix.html#a59eaad38062989765e0c6cf46fe5276c">_numEdges</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#ad1642a10600c123643e5cba495cfc104">   34</a></span>&#160;            <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classedi_1_1GraphMatrix.html#ad1642a10600c123643e5cba495cfc104">_capacity</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#aa48c976d59ee858ad842834917ad7204">   35</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classedi_1_1GraphMatrix.html#aa48c976d59ee858ad842834917ad7204">_directed</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#a1fa24230d996a42cc02866ac99766cd2">   36</a></span>&#160;            <a class="code" href="classedi_1_1Edge.html">Edge</a>* <a class="code" href="classedi_1_1GraphMatrix.html#a1fa24230d996a42cc02866ac99766cd2">_cursorE</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#adff7f836dacdbf3b0a4d6f6221e14127">   37</a></span>&#160;            <a class="code" href="classedi_1_1Vertex.html">Vertex</a>* <a class="code" href="classedi_1_1GraphMatrix.html#adff7f836dacdbf3b0a4d6f6221e14127">_cursorV</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#ab545cc380b25f79aa2ce1e2a02c0578c">   38</a></span>&#160;            vector&lt;Vertex&gt; <a class="code" href="classedi_1_1GraphMatrix.html#ab545cc380b25f79aa2ce1e2a02c0578c">_vectorV</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classedi_1_1GraphMatrix.html#a1bfd2930b7cba55cac5a3526ee8fefd2">   39</a></span>&#160;            <span class="keywordtype">float</span>** <a class="code" href="classedi_1_1GraphMatrix.html#a1bfd2930b7cba55cac5a3526ee8fefd2">_matrixV</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="comment">//* @name Constructores</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <a class="code" href="classedi_1_1GraphMatrix.html">GraphMatrix</a> (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> &amp; capacity=0, <span class="keyword">const</span> <span class="keywordtype">bool</span> &amp; isDirected = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="comment">//*Observers</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"></span>            <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> &amp;numVertexes()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> &amp;numEdges()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> &amp;capacity()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordtype">float</span> ** getMatrix();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordtype">bool</span> isEmpty() <span class="keyword">const</span>; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">bool</span> &amp; isDirected() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="comment">//Devuelve el elemento de la matriz de adyacencia (INFINITO si no hay lado)</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">float</span> adjacent(<span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; u, <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; v) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="comment">//Está el cursor de vértices posición válida</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordtype">bool</span> hasCurrVertex() <span class="keyword">const</span>; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="comment">//Pre: hasCurrVertex() is true.</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="comment">//Devuelve el vértice referenciado por cursor de vértices</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; currVertex() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="comment">//Está el cursor de lados posición válida</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordtype">bool</span> hasCurrEdge() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <span class="comment">//Pre: hasCurrEdge() is true</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="comment">//Devuelve el lado referenciado por cursor de lados</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            <span class="keyword">const</span> <a class="code" href="classedi_1_1Edge.html">Edge</a> currEdge();</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            </div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="comment">//Crea un grafo dirigido</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordtype">void</span> makeDirected();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="comment">//Crea un grafo no dirigido</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordtype">void</span> makeUndirected();</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="comment">//Prec: numVertexes() &lt; capacity()</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <span class="comment">//Añade un vertice al grafo a partir del data</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordtype">void</span> addVertex(<span class="keyword">const</span> std::string &amp; data);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            </div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="comment">//Prec: u y v pertenecen al grafo</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="comment">//Añade un lado al grafo a partir de sus dos vértices y su peso. Esto se reflejará sólo en la matriz de adyacencia</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            <span class="keywordtype">void</span> addEdge(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; data, <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; u, <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; v);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="comment">//Busca un vertice a partir de su data, colocando el cursor en dicho vértice</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="keywordtype">bool</span> searchVertex(<span class="keyword">const</span> std::string &amp;data);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      </div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="comment">//Prec: u pertenece al grafo</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="comment">//Lleva el cursor a un vertice a partir de dicho vertice</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <span class="keywordtype">void</span> goTo(<span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; u);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <span class="comment">//Prec: 0 &lt;= idx &lt; numVertexes()</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="comment">//lleva el cursor a un vértice a partir de la posicion de dicho vertice</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            <span class="keywordtype">void</span> goTo(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> &amp;idx);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="comment">//Prec: u y v pertenecen al grafo</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">//Lleva el cursor a un lado a partir de sus vertices</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="keywordtype">void</span> searchEdge(<span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; u, <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; v);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            <span class="comment">//Vertex cursor</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <span class="comment">//Lleva el cursor al primer vertice</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <span class="keywordtype">void</span> beginVertex();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="comment">//Avanza el cursor al siguiente vertice</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <span class="keywordtype">void</span> nextVertex();</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            <span class="keywordtype">bool</span> afterEndVertex() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordtype">void</span> beginEdge(<span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp; u);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="keywordtype">void</span> nextEdge();</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            </div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordtype">bool</span> afterEndEdge();</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    };</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;} <span class="comment">//namespace ed</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor">    #endif </span></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_ae09db9b53525a4c0e1f6435afd3770cb"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#ae09db9b53525a4c0e1f6435afd3770cb">edi::GraphMatrix::_numVertexes</a></div><div class="ttdeci">unsigned int _numVertexes</div><div class="ttdoc">Num of the vertexes in the graph. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00032">graph_matrix.hpp:32</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_ad1642a10600c123643e5cba495cfc104"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#ad1642a10600c123643e5cba495cfc104">edi::GraphMatrix::_capacity</a></div><div class="ttdeci">unsigned int _capacity</div><div class="ttdoc">Capacity of the graph. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00034">graph_matrix.hpp:34</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_aa48c976d59ee858ad842834917ad7204"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#aa48c976d59ee858ad842834917ad7204">edi::GraphMatrix::_directed</a></div><div class="ttdeci">bool _directed</div><div class="ttdoc">Is directed. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00035">graph_matrix.hpp:35</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_a1fa24230d996a42cc02866ac99766cd2"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#a1fa24230d996a42cc02866ac99766cd2">edi::GraphMatrix::_cursorE</a></div><div class="ttdeci">Edge * _cursorE</div><div class="ttdoc">cursor of edges </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00036">graph_matrix.hpp:36</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html"><div class="ttname"><a href="classedi_1_1GraphMatrix.html">edi::GraphMatrix</a></div><div class="ttdoc">Class of GraphMatrix. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00027">graph_matrix.hpp:27</a></div></div>
+<div class="ttc" id="classedi_1_1Vertex_html"><div class="ttname"><a href="classedi_1_1Vertex.html">edi::Vertex</a></div><div class="ttdoc">Vertex of Graph. </div><div class="ttdef"><b>Definition:</b> <a href="vertex_8hpp_source.html#l00022">vertex.hpp:22</a></div></div>
+<div class="ttc" id="edge_8hpp_html"><div class="ttname"><a href="edge_8hpp.html">edge.hpp</a></div><div class="ttdoc">Fichero con la clase Edge(lado) </div></div>
+<div class="ttc" id="vertex_8hpp_html"><div class="ttname"><a href="vertex_8hpp.html">vertex.hpp</a></div><div class="ttdoc">Definición de la clase Vertex. </div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_a59eaad38062989765e0c6cf46fe5276c"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#a59eaad38062989765e0c6cf46fe5276c">edi::GraphMatrix::_numEdges</a></div><div class="ttdeci">unsigned int _numEdges</div><div class="ttdoc">Num of the Edges in the graph. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00033">graph_matrix.hpp:33</a></div></div>
+<div class="ttc" id="classedi_1_1Edge_html"><div class="ttname"><a href="classedi_1_1Edge.html">edi::Edge</a></div><div class="ttdoc">Edge of graph. </div><div class="ttdef"><b>Definition:</b> <a href="edge_8hpp_source.html#l00022">edge.hpp:22</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_ab545cc380b25f79aa2ce1e2a02c0578c"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#ab545cc380b25f79aa2ce1e2a02c0578c">edi::GraphMatrix::_vectorV</a></div><div class="ttdeci">vector&lt; Vertex &gt; _vectorV</div><div class="ttdoc">Vector fo vertexes. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00038">graph_matrix.hpp:38</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_a1bfd2930b7cba55cac5a3526ee8fefd2"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#a1bfd2930b7cba55cac5a3526ee8fefd2">edi::GraphMatrix::_matrixV</a></div><div class="ttdeci">float ** _matrixV</div><div class="ttdoc">Adjacency matrix of weights. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00039">graph_matrix.hpp:39</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_adff7f836dacdbf3b0a4d6f6221e14127"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#adff7f836dacdbf3b0a4d6f6221e14127">edi::GraphMatrix::_cursorV</a></div><div class="ttdeci">Vertex * _cursorV</div><div class="ttdoc">cursor of vertexes </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00037">graph_matrix.hpp:37</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Lunes, 18 de Mayo de 2015 15:32:33 para PracticadeGrafos por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

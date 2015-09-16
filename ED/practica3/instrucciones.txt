@@ -1,0 +1,1 @@
+Compilar con make para ejecutar el Makefile que generará el archivo ejecutable main

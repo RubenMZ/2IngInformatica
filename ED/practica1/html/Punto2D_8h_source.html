@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Practica 1 ED: Fichero Fuente Punto2D.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Practica 1 ED
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Programa que calcula el error producido por la aproximacion geometrica de una serie de puntos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Punto2D.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Punto2D_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PUNTO2D_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PUNTO2D_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classPunto2D.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPunto2D.html">Punto2D</a>{</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        T x_, y_;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classPunto2D.html#ad12312e6a95bd9c59ab2324d841812c3">   35</a></span>&#160;        <span class="keyword">inline</span> <a class="code" href="classPunto2D.html#ad12312e6a95bd9c59ab2324d841812c3">Punto2D</a>(T <span class="keyword">const</span>&amp; <a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>, T <span class="keyword">const</span>&amp; <a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>){</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            x_ = <a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            y_ = <a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        };</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">   45</a></span>&#160;        <span class="keyword">inline</span> T <a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>()<span class="keyword">const</span>{<span class="keywordflow">return</span>(x_);};</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">   51</a></span>&#160;        <span class="keyword">inline</span> T <a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>()<span class="keyword">const</span>{<span class="keywordflow">return</span>(y_);};</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="classPunto2D.html#a9fefbfef72bd84dc7dbec27c4fe654eb">   61</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classPunto2D.html#a9fefbfef72bd84dc7dbec27c4fe654eb">sonIguales</a>(<a class="code" href="classPunto2D.html">Punto2D</a> p){</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordtype">bool</span> ret = ( <a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>()==p.<a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>() )&amp;&amp; ( <a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>()==p.<a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>() );</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">            #ifndef NDEBUG</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">if</span>(ret)         </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                assert( ( <a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>()==p.<a class="code" href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">x</a>() )&amp;&amp; ( <a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>()==p.<a class="code" href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">y</a>() ) );</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">            #endif</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">return</span>(ret);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;};</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classPunto2D_html_a9fefbfef72bd84dc7dbec27c4fe654eb"><div class="ttname"><a href="classPunto2D.html#a9fefbfef72bd84dc7dbec27c4fe654eb">Punto2D::sonIguales</a></div><div class="ttdeci">bool sonIguales(Punto2D p)</div><div class="ttdoc">Compara dos puntos para ver si son iguales. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:61</div></div>
+<div class="ttc" id="classPunto2D_html_ad12312e6a95bd9c59ab2324d841812c3"><div class="ttname"><a href="classPunto2D.html#ad12312e6a95bd9c59ab2324d841812c3">Punto2D::Punto2D</a></div><div class="ttdeci">Punto2D(T const &amp;x, T const &amp;y)</div><div class="ttdoc">Constructor inline de la clase. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:35</div></div>
+<div class="ttc" id="classPunto2D_html"><div class="ttname"><a href="classPunto2D.html">Punto2D</a></div><div class="ttdoc">Clase que representa los puntos en dos dimensiones x/y. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:22</div></div>
+<div class="ttc" id="classPunto2D_html_a7a262713e0e51178deddbe9e72cbda7c"><div class="ttname"><a href="classPunto2D.html#a7a262713e0e51178deddbe9e72cbda7c">Punto2D::y</a></div><div class="ttdeci">T y() const </div><div class="ttdoc">Observador inline del campo y. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:51</div></div>
+<div class="ttc" id="classPunto2D_html_a3ce9cc1175efc286c0faa31df5778276"><div class="ttname"><a href="classPunto2D.html#a3ce9cc1175efc286c0faa31df5778276">Punto2D::x</a></div><div class="ttdeci">T x() const </div><div class="ttdoc">Observador inline del campo x. </div><div class="ttdef"><b>Definition:</b> Punto2D.h:45</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Sábado, 28 de Febrero de 2015 14:15:43 para Practica 1 ED por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

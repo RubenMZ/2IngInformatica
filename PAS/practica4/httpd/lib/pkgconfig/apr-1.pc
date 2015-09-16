@@ -1,0 +1,11 @@
+prefix=/home/ruben/httpd
+exec_prefix=/home/ruben/httpd
+libdir=${prefix}/lib
+APR_MAJOR_VERSION=1
+includedir=/home/ruben/httpd/include
+
+Name: APR
+Description: The Apache Portable Runtime library
+Version: 1.5.1
+Libs: -L${libdir} -lapr-${APR_MAJOR_VERSION} -lrt -lcrypt  -lpthread -ldl
+Cflags: -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -g -O2 -pthread -I${includedir}

@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>PracticadeGrafos: Fichero Fuente algoritmos.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">PracticadeGrafos
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">algoritmos.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="algoritmos_8hpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef ALGORITMOS_H</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ALGORITMOS_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="graph__matrix_8hpp.html">graph_matrix.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="vertex_8hpp.html">vertex.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="edge_8hpp.html">edge.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>edi;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="algoritmos_8hpp.html#afbe136253f71b2e7aa146b6f30a34195">profundidad</a>( <a class="code" href="classedi_1_1GraphMatrix.html">GraphMatrix</a> g, <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp;v, vector&lt;Vertex&gt; &amp;visitados);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="algoritmos_8hpp.html#a9d082fb2a2f551fd6b196a22c814f3e0">estaVertex</a>(vector&lt;Vertex&gt; vector, <a class="code" href="classedi_1_1Vertex.html">Vertex</a> v);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="algoritmos_8hpp.html#ab2f4f8157788f8986461fdf01d5d363c">algoritmoFloyd</a>(<a class="code" href="classedi_1_1GraphMatrix.html">GraphMatrix</a> &amp;g, <span class="keywordtype">float</span> ** distancias, <span class="keywordtype">int</span> ** intermedios);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="algoritmos_8hpp.html#af86ceacd49b2a00bfecdaddeb159dba9">caminoMin</a>(<a class="code" href="classedi_1_1GraphMatrix.html">GraphMatrix</a> &amp;g, <span class="keywordtype">float</span>** distancias, <span class="keywordtype">int</span> ** intermedios, <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp;origen, <span class="keyword">const</span> <a class="code" href="classedi_1_1Vertex.html">Vertex</a> &amp;destino);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="algoritmos_8hpp.html#a6586049932e0ef7daaf7402b504a81e9">mostrarMatrix</a>(<span class="keywordtype">float</span> ** matrix, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;tam);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="algoritmos_8hpp.html#a9fd20aeebe16e37042a50049c42e81d3">copiaMatrix</a>(<span class="keywordtype">float</span> ** matrix, <span class="keywordtype">float</span> ** copia, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;tam);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="algoritmos_8hpp_html_a6586049932e0ef7daaf7402b504a81e9"><div class="ttname"><a href="algoritmos_8hpp.html#a6586049932e0ef7daaf7402b504a81e9">mostrarMatrix</a></div><div class="ttdeci">void mostrarMatrix(float **matrix, const int &amp;tam)</div><div class="ttdoc">Funcion auxiliar para imprimir una matriz de float. </div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00096">algoritmos.cpp:96</a></div></div>
+<div class="ttc" id="algoritmos_8hpp_html_a9d082fb2a2f551fd6b196a22c814f3e0"><div class="ttname"><a href="algoritmos_8hpp.html#a9d082fb2a2f551fd6b196a22c814f3e0">estaVertex</a></div><div class="ttdeci">bool estaVertex(vector&lt; Vertex &gt; vector, Vertex v)</div><div class="ttdoc">Funcion que comprueba si un vertice esta en el vector de encontrados. </div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00033">algoritmos.cpp:33</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html"><div class="ttname"><a href="classedi_1_1GraphMatrix.html">edi::GraphMatrix</a></div><div class="ttdoc">Class of GraphMatrix. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00027">graph_matrix.hpp:27</a></div></div>
+<div class="ttc" id="classedi_1_1Vertex_html"><div class="ttname"><a href="classedi_1_1Vertex.html">edi::Vertex</a></div><div class="ttdoc">Vertex of Graph. </div><div class="ttdef"><b>Definition:</b> <a href="vertex_8hpp_source.html#l00022">vertex.hpp:22</a></div></div>
+<div class="ttc" id="edge_8hpp_html"><div class="ttname"><a href="edge_8hpp.html">edge.hpp</a></div><div class="ttdoc">Fichero con la clase Edge(lado) </div></div>
+<div class="ttc" id="vertex_8hpp_html"><div class="ttname"><a href="vertex_8hpp.html">vertex.hpp</a></div><div class="ttdoc">Definición de la clase Vertex. </div></div>
+<div class="ttc" id="algoritmos_8hpp_html_ab2f4f8157788f8986461fdf01d5d363c"><div class="ttname"><a href="algoritmos_8hpp.html#ab2f4f8157788f8986461fdf01d5d363c">algoritmoFloyd</a></div><div class="ttdeci">void algoritmoFloyd(GraphMatrix &amp;g, float **distancias, int **intermedios)</div><div class="ttdoc">Funcion que aplica el algoritmo de floyd a un grafo y rellena las matrices de distancias e intermedio...</div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00044">algoritmos.cpp:44</a></div></div>
+<div class="ttc" id="algoritmos_8hpp_html_a9fd20aeebe16e37042a50049c42e81d3"><div class="ttname"><a href="algoritmos_8hpp.html#a9fd20aeebe16e37042a50049c42e81d3">copiaMatrix</a></div><div class="ttdeci">void copiaMatrix(float **matrix, float **copia, const int &amp;tam)</div><div class="ttdoc">Funcion auxiliar para copiar la matrix a la copia. </div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00108">algoritmos.cpp:108</a></div></div>
+<div class="ttc" id="graph__matrix_8hpp_html"><div class="ttname"><a href="graph__matrix_8hpp.html">graph_matrix.hpp</a></div><div class="ttdoc">Definición de la clase GraphMatrix. </div></div>
+<div class="ttc" id="algoritmos_8hpp_html_af86ceacd49b2a00bfecdaddeb159dba9"><div class="ttname"><a href="algoritmos_8hpp.html#af86ceacd49b2a00bfecdaddeb159dba9">caminoMin</a></div><div class="ttdeci">float caminoMin(GraphMatrix &amp;g, float **distancias, int **intermedios, const Vertex &amp;origen, const Vertex &amp;destino)</div><div class="ttdoc">Funcion que gracias al algoritmo de Floyd puede darnos el camino minimo entre dos nodos...</div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00071">algoritmos.cpp:71</a></div></div>
+<div class="ttc" id="algoritmos_8hpp_html_afbe136253f71b2e7aa146b6f30a34195"><div class="ttname"><a href="algoritmos_8hpp.html#afbe136253f71b2e7aa146b6f30a34195">profundidad</a></div><div class="ttdeci">void profundidad(GraphMatrix g, const Vertex &amp;v, vector&lt; Vertex &gt; &amp;visitados)</div><div class="ttdoc">Realiza el recorrido en profundidad desde un nodo, mostrando por los nodos por los que va pasando...</div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00011">algoritmos.cpp:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Lunes, 18 de Mayo de 2015 15:32:33 para PracticadeGrafos por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

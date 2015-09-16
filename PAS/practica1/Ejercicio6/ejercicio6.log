@@ -1,0 +1,16 @@
+./carpetaPrueba/dir1/carpetaTercera/bcache.cpp:6:26: fatal error: svm/bcache.hpp: No existe el archivo o el directorio
+ #include "svm/bcache.hpp"
+                          ^
+compilation terminated.
+./src/bcache.cpp:6:26: fatal error: svm/bcache.hpp: No existe el archivo o el directorio
+ #include "svm/bcache.hpp"
+                          ^
+compilation terminated.
+./carpetaPrueba/dir1/carpetaTercera/bcache.cpp:6:26: fatal error: svm/bcache.hpp: No existe el archivo o el directorio
+ #include "svm/bcache.hpp"
+                          ^
+compilation terminated.
+carpetaPrueba/dir1/carpetaTercera/bcache.cpp:6:26: fatal error: svm/bcache.hpp: No existe el archivo o el directorio
+ #include "svm/bcache.hpp"
+                          ^
+compilation terminated.

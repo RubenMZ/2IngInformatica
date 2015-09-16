@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>PracticadeGrafos: Fichero Fuente main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">PracticadeGrafos
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">main.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include  &quot;<a class="code" href="edge_8hpp.html">edge.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include  &quot;<a class="code" href="vertex_8hpp.html">vertex.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="graph__matrix_8hpp.html">graph_matrix.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="entrada__salida_8hpp.html">entrada_salida.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="algoritmos_8hpp.html">algoritmos.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;cstdlib&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> main ()</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classedi_1_1GraphMatrix.html">edi::GraphMatrix</a> *g = 0;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">bool</span> cargado = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    std::string nombreFicheroGrafo;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">float</span> ** distancias;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> ** intermedios;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="classedi_1_1Vertex.html">Vertex</a> origen, destino;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">string</span> localidad1, localidad2;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">float</span> distan;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    vector&lt;Vertex&gt; explorados;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">int</span> opcionMenu=0;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">bool</span> existeLoc1=<span class="keyword">false</span>, existeLoc2=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">while</span>(opcionMenu!=5){</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;_________________________________________&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;|Elige una de las siguientes opciones:   |&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;|    1. Cargar grafo.                 |&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;|    2. Mostrar grafo.                |&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;|    3. Recorrido en profundidad.     |&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;|    4. Distancia entre dos nodo.     |&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;|    5. Salir.                        |&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;|________________________________________|&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;Opcion:&quot;</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        cin&gt;&gt;opcionMenu;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">switch</span>(opcionMenu){</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">case</span> 1: cout &lt;&lt; <span class="stringliteral">&quot;Nombre del fichero grafo: &quot;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                cin &gt;&gt; nombreFicheroGrafo;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                cargado = <a class="code" href="entrada__salida_8cpp.html#ae1987e5dd2df64505f6900fd70694b9b">cargarGrafo</a>(g, nombreFicheroGrafo);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <span class="keywordflow">if</span>(cargado){</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                    distancias=(<span class="keywordtype">float</span> **)malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">float</span>*)*(g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>()));</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                    </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>(); i++){</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                        distancias[i]=(<span class="keywordtype">float</span> *)malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">float</span>)*(g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>()));</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                    }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                    intermedios=(<span class="keywordtype">int</span> **)malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">int</span>*)*(g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>()));</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                    </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>(); i++){</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        intermedios[i]=(<span class="keywordtype">int</span> *)malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">int</span>)*(g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>()));</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                    <a class="code" href="algoritmos_8cpp.html#a9fd20aeebe16e37042a50049c42e81d3">copiaMatrix</a>(g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a5632bed9ef32f517be27edc841424e07">getMatrix</a>(), distancias, g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>());</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>(); ++i)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                    {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> j = 0; j &lt; g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>(); ++j)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                        {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                            intermedios[i][j]=0;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                }<span class="keywordflow">else</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    cout &lt;&lt; <span class="stringliteral">&quot;El grafo no se ha podido cargar\n&quot;</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">case</span> 2: </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keywordflow">if</span>(cargado){</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    <a class="code" href="entrada__salida_8cpp.html#a8f942941fa9e71786d9feda01a65b904">mostrarGrafo</a>(*g);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    cout&lt;&lt;<span class="stringliteral">&quot;Distancias&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                    cout&lt;&lt;<span class="stringliteral">&quot;===========&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                    <a class="code" href="algoritmos_8cpp.html#a6586049932e0ef7daaf7402b504a81e9">mostrarMatrix</a>(g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a5632bed9ef32f517be27edc841424e07">getMatrix</a>(), g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">capacity</a>());</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                }<span class="keywordflow">else</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    cout &lt;&lt; <span class="stringliteral">&quot;El grafo no se ha podido cargar\n&quot;</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">if</span>(cargado){</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                explorados.clear();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                cout&lt;&lt;<span class="stringliteral">&quot;Introduce el nodo origen: &quot;</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                cin&gt;&gt;localidad1;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">if</span>( (existeLoc1=g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a8f8ca30098dfb76f7f0c0a1f5a1adcbf">searchVertex</a>(localidad1)) ==<span class="keyword">true</span> )</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    origen=g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a3e1ebb6cfd5bafafd05cd94b9cf12b54">currVertex</a>();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    cout&lt;&lt;<span class="stringliteral">&quot;No existe ese nodo&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                <span class="keywordflow">if</span>(existeLoc1)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <a class="code" href="algoritmos_8cpp.html#afbe136253f71b2e7aa146b6f30a34195">profundidad</a>(*g, origen, explorados);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    cout &lt;&lt; <span class="stringliteral">&quot;El grafo no se ha podido cargar\n&quot;</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">case</span> 4: </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordflow">if</span>(cargado){</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    <a class="code" href="algoritmos_8cpp.html#ab2f4f8157788f8986461fdf01d5d363c">algoritmoFloyd</a>(*g, distancias, intermedios);        </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                    cout&lt;&lt;<span class="stringliteral">&quot;Introduce la primera localidad: &quot;</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    cin&gt;&gt;localidad1;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    <span class="keywordflow">if</span>( (existeLoc1=g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a8f8ca30098dfb76f7f0c0a1f5a1adcbf">searchVertex</a>(localidad1))==<span class="keyword">true</span> )</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                        origen=g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a3e1ebb6cfd5bafafd05cd94b9cf12b54">currVertex</a>();</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                        cout&lt;&lt;<span class="stringliteral">&quot;No existe ese nodo&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                    cout&lt;&lt;<span class="stringliteral">&quot;Introduce la segundo localidad: &quot;</span>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                    cin&gt;&gt;localidad2;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                    <span class="keywordflow">if</span>( (existeLoc2=g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a8f8ca30098dfb76f7f0c0a1f5a1adcbf">searchVertex</a>(localidad2)) ==<span class="keyword">true</span>)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                        destino=g-&gt;<a class="code" href="classedi_1_1GraphMatrix.html#a3e1ebb6cfd5bafafd05cd94b9cf12b54">currVertex</a>();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                        cout&lt;&lt;<span class="stringliteral">&quot;No existe ese nodo&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                    <span class="keywordflow">if</span>(existeLoc1 &amp;&amp; existeLoc2){</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                        distan=<a class="code" href="algoritmos_8cpp.html#af86ceacd49b2a00bfecdaddeb159dba9">caminoMin</a>(*g, distancias, intermedios, origen, destino);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                        cout&lt;&lt;destino.<a class="code" href="classedi_1_1Vertex.html#a8e0d6006de80939c6096ae75dcec8492">getData</a>()&lt;&lt;endl;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;          </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                        cout&lt;&lt;endl&lt;&lt;<span class="stringliteral">&quot;La localidad &quot;</span>&lt;&lt;localidad1&lt;&lt;<span class="stringliteral">&quot; dista &quot;</span>&lt;&lt;distan&lt;&lt;<span class="stringliteral">&quot; de la localidad &quot;</span>&lt;&lt;localidad2&lt;&lt;endl;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                    cout &lt;&lt; <span class="stringliteral">&quot;El grafo no se ha podido cargar\n&quot;</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">case</span> 5: cout&lt;&lt;<span class="stringliteral">&quot;Pulsar ENTER para terminar...&quot;</span>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                getchar();</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                getchar();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">default</span>: </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                cout&lt;&lt;<span class="stringliteral">&quot;La opcion &quot;</span>&lt;&lt;opcionMenu&lt;&lt;<span class="stringliteral">&quot; no es correcta&quot;</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;}</div>
+<div class="ttc" id="algoritmos_8cpp_html_a9fd20aeebe16e37042a50049c42e81d3"><div class="ttname"><a href="algoritmos_8cpp.html#a9fd20aeebe16e37042a50049c42e81d3">copiaMatrix</a></div><div class="ttdeci">void copiaMatrix(float **matrix, float **copia, const int &amp;tam)</div><div class="ttdoc">Funcion auxiliar para copiar la matrix a la copia. </div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00108">algoritmos.cpp:108</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html"><div class="ttname"><a href="classedi_1_1GraphMatrix.html">edi::GraphMatrix</a></div><div class="ttdoc">Class of GraphMatrix. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8hpp_source.html#l00027">graph_matrix.hpp:27</a></div></div>
+<div class="ttc" id="entrada__salida_8cpp_html_ae1987e5dd2df64505f6900fd70694b9b"><div class="ttname"><a href="entrada__salida_8cpp.html#ae1987e5dd2df64505f6900fd70694b9b">cargarGrafo</a></div><div class="ttdeci">bool cargarGrafo(edi::GraphMatrix *&amp;g, std::string fileGraph)</div><div class="ttdoc">Carga un grafo a partir de un fichero donde vienen especificados sus nodos y sus lados. </div><div class="ttdef"><b>Definition:</b> <a href="entrada__salida_8cpp_source.html#l00011">entrada_salida.cpp:11</a></div></div>
+<div class="ttc" id="classedi_1_1Vertex_html"><div class="ttname"><a href="classedi_1_1Vertex.html">edi::Vertex</a></div><div class="ttdoc">Vertex of Graph. </div><div class="ttdef"><b>Definition:</b> <a href="vertex_8hpp_source.html#l00022">vertex.hpp:22</a></div></div>
+<div class="ttc" id="edge_8hpp_html"><div class="ttname"><a href="edge_8hpp.html">edge.hpp</a></div><div class="ttdoc">Fichero con la clase Edge(lado) </div></div>
+<div class="ttc" id="classedi_1_1Vertex_html_a8e0d6006de80939c6096ae75dcec8492"><div class="ttname"><a href="classedi_1_1Vertex.html#a8e0d6006de80939c6096ae75dcec8492">edi::Vertex::getData</a></div><div class="ttdeci">const std::string &amp; getData() const </div><div class="ttdoc">Funcion que devuelve el atributo data. </div><div class="ttdef"><b>Definition:</b> <a href="vertex_8hpp_source.html#l00036">vertex.hpp:36</a></div></div>
+<div class="ttc" id="vertex_8hpp_html"><div class="ttname"><a href="vertex_8hpp.html">vertex.hpp</a></div><div class="ttdoc">Definición de la clase Vertex. </div></div>
+<div class="ttc" id="algoritmos_8cpp_html_a6586049932e0ef7daaf7402b504a81e9"><div class="ttname"><a href="algoritmos_8cpp.html#a6586049932e0ef7daaf7402b504a81e9">mostrarMatrix</a></div><div class="ttdeci">void mostrarMatrix(float **matrix, const int &amp;tam)</div><div class="ttdoc">Funcion auxiliar para imprimir una matriz de float. </div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00096">algoritmos.cpp:96</a></div></div>
+<div class="ttc" id="algoritmos_8cpp_html_afbe136253f71b2e7aa146b6f30a34195"><div class="ttname"><a href="algoritmos_8cpp.html#afbe136253f71b2e7aa146b6f30a34195">profundidad</a></div><div class="ttdeci">void profundidad(GraphMatrix g, const Vertex &amp;v, vector&lt; Vertex &gt; &amp;visitados)</div><div class="ttdoc">Realiza el recorrido en profundidad desde un nodo, mostrando por los nodos por los que va pasando...</div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00011">algoritmos.cpp:11</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_a8f8ca30098dfb76f7f0c0a1f5a1adcbf"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#a8f8ca30098dfb76f7f0c0a1f5a1adcbf">edi::GraphMatrix::searchVertex</a></div><div class="ttdeci">bool searchVertex(const std::string &amp;data)</div><div class="ttdoc">Busca un vertice a partir de su data, colocando el cursor en dicho vértice. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8cpp_source.html#l00142">graph_matrix.cpp:142</a></div></div>
+<div class="ttc" id="entrada__salida_8cpp_html_a8f942941fa9e71786d9feda01a65b904"><div class="ttname"><a href="entrada__salida_8cpp.html#a8f942941fa9e71786d9feda01a65b904">mostrarGrafo</a></div><div class="ttdeci">void mostrarGrafo(edi::GraphMatrix &amp;g)</div><div class="ttdoc">Muestra el grafo pasado por parametro por pantalla. </div><div class="ttdef"><b>Definition:</b> <a href="entrada__salida_8cpp_source.html#l00082">entrada_salida.cpp:82</a></div></div>
+<div class="ttc" id="entrada__salida_8hpp_html"><div class="ttname"><a href="entrada__salida_8hpp.html">entrada_salida.hpp</a></div><div class="ttdoc">Declaración de las funciones de entrada/salida del grafo. </div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_a5632bed9ef32f517be27edc841424e07"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#a5632bed9ef32f517be27edc841424e07">edi::GraphMatrix::getMatrix</a></div><div class="ttdeci">float ** getMatrix()</div><div class="ttdoc">Nos da la matriz de adyacencia. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8cpp_source.html#l00056">graph_matrix.cpp:56</a></div></div>
+<div class="ttc" id="algoritmos_8cpp_html_ab2f4f8157788f8986461fdf01d5d363c"><div class="ttname"><a href="algoritmos_8cpp.html#ab2f4f8157788f8986461fdf01d5d363c">algoritmoFloyd</a></div><div class="ttdeci">void algoritmoFloyd(GraphMatrix &amp;g, float **distancias, int **intermedios)</div><div class="ttdoc">Funcion que aplica el algoritmo de floyd a un grafo y rellena las matrices de distancias e intermedio...</div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00044">algoritmos.cpp:44</a></div></div>
+<div class="ttc" id="algoritmos_8cpp_html_af86ceacd49b2a00bfecdaddeb159dba9"><div class="ttname"><a href="algoritmos_8cpp.html#af86ceacd49b2a00bfecdaddeb159dba9">caminoMin</a></div><div class="ttdeci">float caminoMin(GraphMatrix &amp;g, float **distancias, int **intermedios, const Vertex &amp;origen, const Vertex &amp;destino)</div><div class="ttdoc">Funcion que gracias al algoritmo de Floyd puede darnos el camino minimo entre dos nodos...</div><div class="ttdef"><b>Definition:</b> <a href="algoritmos_8cpp_source.html#l00071">algoritmos.cpp:71</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_afbcaf9d1a05c4ae921325641148c0a63"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#afbcaf9d1a05c4ae921325641148c0a63">edi::GraphMatrix::capacity</a></div><div class="ttdeci">const unsigned int &amp; capacity() const </div><div class="ttdoc">Observador del campo capacity. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8cpp_source.html#l00052">graph_matrix.cpp:52</a></div></div>
+<div class="ttc" id="classedi_1_1GraphMatrix_html_a3e1ebb6cfd5bafafd05cd94b9cf12b54"><div class="ttname"><a href="classedi_1_1GraphMatrix.html#a3e1ebb6cfd5bafafd05cd94b9cf12b54">edi::GraphMatrix::currVertex</a></div><div class="ttdeci">const Vertex &amp; currVertex() const </div><div class="ttdoc">Devuelve el vértice referenciado por el cursor de vértices. </div><div class="ttdef"><b>Definition:</b> <a href="graph__matrix_8cpp_source.html#l00087">graph_matrix.cpp:87</a></div></div>
+<div class="ttc" id="graph__matrix_8hpp_html"><div class="ttname"><a href="graph__matrix_8hpp.html">graph_matrix.hpp</a></div><div class="ttdoc">Definición de la clase GraphMatrix. </div></div>
+<div class="ttc" id="algoritmos_8hpp_html"><div class="ttname"><a href="algoritmos_8hpp.html">algoritmos.hpp</a></div><div class="ttdoc">Fichero con las cabeceras de los algoritmos. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Lunes, 18 de Mayo de 2015 15:32:33 para PracticadeGrafos por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

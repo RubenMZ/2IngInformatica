@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Practica 1 ED: Referencia del Archivo funciones.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Practica 1 ED
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Programa que calcula el error producido por la aproximacion geometrica de una serie de puntos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo funciones.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Fichero de funciones para implementar la funcionalidad y calcular el error.  
+<a href="#details">Más...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="funciones_8h_source.html">funciones.h</a>&quot;</code><br/>
+<code>#include &lt;fstream&gt;</code><br/>
+<code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;cstdlib&gt;</code><br/>
+<code>#include &lt;cmath&gt;</code><br/>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:ae41dd99b9ee3b74b011f54d5229008ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funciones_8cpp.html#ae41dd99b9ee3b74b011f54d5229008ec">cargarContorno</a> (vector&lt; <a class="el" href="classPunto2D.html">Punto2D</a>&lt; double &gt; &gt; &amp;contorno, const char *ficheroContorno)</td></tr>
+<tr class="memdesc:ae41dd99b9ee3b74b011f54d5229008ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carga el vector con los puntos del fichero.  <a href="#ae41dd99b9ee3b74b011f54d5229008ec">Más...</a><br/></td></tr>
+<tr class="separator:ae41dd99b9ee3b74b011f54d5229008ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d495b04de523f080c6f4731594cc47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funciones_8cpp.html#a01d495b04de523f080c6f4731594cc47">cargarAproximacionPoligonal</a> (vector&lt; int &gt; &amp;aproximacionPoligonal, const char *ficheroAproximacionPoligonal)</td></tr>
+<tr class="memdesc:a01d495b04de523f080c6f4731594cc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carga el vector con los enteros del fichero.  <a href="#a01d495b04de523f080c6f4731594cc47">Más...</a><br/></td></tr>
+<tr class="separator:a01d495b04de523f080c6f4731594cc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7016d72793537dbc05a1ebbcf84727b7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funciones_8cpp.html#a7016d72793537dbc05a1ebbcf84727b7">calcularError</a> (const vector&lt; <a class="el" href="classPunto2D.html">Punto2D</a>&lt; double &gt; &gt; &amp;contorno, const vector&lt; int &gt; &amp;aproximacionPoligonal)</td></tr>
+<tr class="memdesc:a7016d72793537dbc05a1ebbcf84727b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcular la suma de errores en la aproximacion utilizando llamadas a funciones de la recta2D y calcularDistancia.  <a href="#a7016d72793537dbc05a1ebbcf84727b7">Más...</a><br/></td></tr>
+<tr class="separator:a7016d72793537dbc05a1ebbcf84727b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3a099ab1a702487dd6dc4f21800441"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funciones_8cpp.html#aac3a099ab1a702487dd6dc4f21800441">calcularDistancia</a> (const <a class="el" href="classPunto2D.html">Punto2D</a>&lt; double &gt; &amp;p, const <a class="el" href="classRecta2D.html">Recta2D</a>&lt; double &gt; &amp;recta)</td></tr>
+<tr class="memdesc:aac3a099ab1a702487dd6dc4f21800441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcular la distancia de un punto a la recta.  <a href="#aac3a099ab1a702487dd6dc4f21800441">Más...</a><br/></td></tr>
+<tr class="separator:aac3a099ab1a702487dd6dc4f21800441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Fichero de funciones para implementar la funcionalidad y calcular el error. </p>
+<dl class="section author"><dt>Autor</dt><dd>Ruben Medina </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd>23-02-15 </dd></dl>
+<dl class="section version"><dt>Versión</dt><dd>1.0 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones</h2>
+<a class="anchor" id="aac3a099ab1a702487dd6dc4f21800441"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double calcularDistancia </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPunto2D.html">Punto2D</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRecta2D.html">Recta2D</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>recta</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcular la distancia de un punto a la recta. </p>
+<ul>
+<li>const Punto2D&lt;double&gt; &amp; p </li>
+<li>const Recta2D&lt;double&gt; &amp; recta <dl class="section return"><dt>Devuelve</dt><dd>double distancia </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="a7016d72793537dbc05a1ebbcf84727b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double calcularError </td>
+          <td>(</td>
+          <td class="paramtype">const vector&lt; <a class="el" href="classPunto2D.html">Punto2D</a>&lt; double &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>contorno</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aproximacionPoligonal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcular la suma de errores en la aproximacion utilizando llamadas a funciones de la recta2D y calcularDistancia. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>aproximacionPoligonal y contorno tengan elementos <ul>
+<li>vector&lt;int&gt; &amp;aproximacionPoligonal, vector de enteros para indice de puntos </li>
+<li>const vector&lt; Punto2D&lt;double&gt; &gt; &amp;contorno, vector de puntos </li>
+</ul>
+</dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>double error </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a01d495b04de523f080c6f4731594cc47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cargarAproximacionPoligonal </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aproximacionPoligonal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>ficheroAproximacionPoligonal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carga el vector con los enteros del fichero. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>aproximacionPoligonal este vacio <ul>
+<li>vector&lt;int&gt; &amp;aproximacionPoligonal, vector de enteros para indice de puntos </li>
+<li>const char* ficheroAproximacionPoligonal , nombre del fichero </li>
+</ul>
+</dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>aproximacionPoligonal tenga elementos </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae41dd99b9ee3b74b011f54d5229008ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cargarContorno </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; <a class="el" href="classPunto2D.html">Punto2D</a>&lt; double &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>contorno</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>ficheroContorno</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carga el vector con los puntos del fichero. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>contorno este vacio <ul>
+<li>vector&lt; Punto2D&lt;double&gt; &gt; &amp; contorno , vector de puntos de contorno </li>
+<li>char * ficheroContorno, nombre del fichero </li>
+</ul>
+</dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>contorno tenga elementos </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>void </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Sábado, 28 de Febrero de 2015 14:15:43 para Practica 1 ED por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

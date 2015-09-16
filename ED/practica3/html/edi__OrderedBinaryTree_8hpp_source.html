@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Lista Doblemente Enlazada: Fichero Fuente edi_OrderedBinaryTree.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Lista Doblemente Enlazada
+   </div>
+   <div id="projectbrief">Proyecto que utiliza una lista doblemente enlazada para implementar una lista de alumnos para una asignatura</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="modules.html"><span>Módulos</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Amigas</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Grupos</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">edi_OrderedBinaryTree.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="edi__OrderedBinaryTree_8hpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef __EDI_OrderedBinaryTree_HPP__</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __EDI_OrderedBinaryTree_HPP__</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="edi__exports_8hpp.html">edi_exports.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="edi__BinaryTree_8hpp.html">edi_BinaryTree.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>edi </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classedi_1_1OrderedBinaryTree.html">   18</a></span>&#160;<span class="keyword">class </span>EDI_API <a class="code" href="classedi_1_1OrderedBinaryTree.html">OrderedBinaryTree</a>: <span class="keyword">public</span> <a class="code" href="classedi_1_1BinaryTree.html">edi::BinaryTree</a>&lt;T&gt;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classedi_1_1OrderedBinaryTree.html#adc74258a079b481cf45c68b4d3cd00cf">   24</a></span>&#160;  <a class="code" href="classedi_1_1OrderedBinaryTree.html#adc74258a079b481cf45c68b4d3cd00cf">OrderedBinaryTree</a>() {}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classedi_1_1OrderedBinaryTree.html">OrderedBinaryTree</a>() {}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> existsItem() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keyword">virtual</span> <span class="keyword">const</span> T&amp; item() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> has(<span class="keyword">const</span> T&amp; x) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">virtual</span> <span class="keyword">const</span> OrderedBinaryTree&lt;T&gt;* leftSubTree() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">virtual</span> <span class="keyword">const</span> OrderedBinaryTree&lt;T&gt;* rightSubTree() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> goToRoot() = 0;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> search(<span class="keyword">const</span> T&amp; x) = 0;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> insert(<span class="keyword">const</span> T&amp; x) = 0;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> removeItem() = 0;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="keyword">virtual</span> OrderedBinaryTree&lt;T&gt;* leftSubTree() = 0;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keyword">virtual</span> OrderedBinaryTree&lt;T&gt;* rightSubTree() = 0;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="comment">//Avoid copy constructor and assign operator.</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  OrderedBinaryTree(<span class="keyword">const</span> OrderedBinaryTree&lt;T&gt;&amp; o) {};</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  OrderedBinaryTree&lt;T&gt;&amp; operator=(<span class="keyword">const</span> OrderedBinaryTree&lt;T&gt;* other) {<span class="keywordflow">return</span> *<span class="keyword">this</span>;}</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keyword">protected</span>:  </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> createRightSubTree(<span class="keyword">const</span> T&amp; it) = 0;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> createLeftSubTree(<span class="keyword">const</span> T&amp; it) = 0;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> setItem(<span class="keyword">const</span> T&amp; it) = 0;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> createRoot(<span class="keyword">const</span> T&amp; it) = 0;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;};</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#endif //__EDI_OrderedBinaryTree_HPP__</span></div>
+<div class="ttc" id="classedi_1_1BinaryTree_html"><div class="ttname"><a href="classedi_1_1BinaryTree.html">edi::BinaryTree</a></div><div class="ttdoc">ADT Binary tree. </div><div class="ttdef"><b>Definition:</b> edi_BinaryTree.hpp:18</div></div>
+<div class="ttc" id="classedi_1_1OrderedBinaryTree_html"><div class="ttname"><a href="classedi_1_1OrderedBinaryTree.html">edi::OrderedBinaryTree</a></div><div class="ttdoc">The ADT OrderedBinaryTree. </div><div class="ttdef"><b>Definition:</b> edi_OrderedBinaryTree.hpp:18</div></div>
+<div class="ttc" id="edi__exports_8hpp_html"><div class="ttname"><a href="edi__exports_8hpp.html">edi_exports.hpp</a></div><div class="ttdoc">Fichero con defines. </div></div>
+<div class="ttc" id="classedi_1_1OrderedBinaryTree_html_adc74258a079b481cf45c68b4d3cd00cf"><div class="ttname"><a href="classedi_1_1OrderedBinaryTree.html#adc74258a079b481cf45c68b4d3cd00cf">edi::OrderedBinaryTree::OrderedBinaryTree</a></div><div class="ttdeci">OrderedBinaryTree()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> edi_OrderedBinaryTree.hpp:24</div></div>
+<div class="ttc" id="edi__BinaryTree_8hpp_html"><div class="ttname"><a href="edi__BinaryTree_8hpp.html">edi_BinaryTree.hpp</a></div><div class="ttdoc">Fichero con arbol binario. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Lunes, 27 de Abril de 2015 01:05:18 para Lista Doblemente Enlazada por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
